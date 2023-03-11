@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Avaliação</title>
+    <style></style>
+</head>
+<body>
+    <main>
+        <nav class="caixa">
+            <div class="imag">
+                <img src="./img/icon-star.svg" alt="estrela" >
+            </div>
+            <h1 class="texto_ti">Como fizemos?</h1>
+            <p class="texto">Por favor, deixe-nos saber como fizemos com o seu pedido de suporte. Todos os comentários são apreciados
+             para nos ajudar a melhorar a nossa oferta!
+            </p>
+            <ul class="lista">
+                <li><button class="nume" onclick="numero('1')">1</button></li>
+                <li><button class="nume" onclick="numero('2')">2</button></li>
+                <li><button class="nume" onclick="numero('3')">3</button></li>
+                <li><button class="nume" onclick="numero('4')">4</button></li>
+                <li><button class="nume" onclick="numero('5')">5</button></li> 
+            </ul>
+            <button onclick="concluido()" class="botao">Submit</button>
+       </nav>
+
+       <section class="prime" id="pri">
+        <div class="principal">
+            <img src="./img/illustration-thank-you.svg" class="imagm"/>
+            <div class="primeTexto" id="tex"></div>
+            <h1>Obrigado!</h1>
+            <p>Agradecemos por dedicar seu tempo para avaliar. Se você precisar de mais suporte,não hesite em entrar em contato!</p>
+        </div>
+       </section> 
+    </main>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
